@@ -1,0 +1,25 @@
+{
+  "name": "video-storage",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon --exec npx tsx index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "mime-types": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express-fileupload": "^1.5.1",
+    "@types/mime-types": "^3.0.1",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
