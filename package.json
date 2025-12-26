@@ -11,11 +11,13 @@
     "nodemon": "nodemon --exec npx tsx index.ts"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.2.1",
     "express-fileupload": "^1.5.2",
     "mime-types": "^3.0.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express-fileupload": "^1.5.1",
     "@types/mime-types": "^3.0.1",
     "nodemon": "^3.1.11",

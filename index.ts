@@ -1,6 +1,7 @@
 import express from "express";
 import fileUpload from "express-fileupload";
 import { fileURLToPath } from "url";
+import cors from "cors";
 import mimeTypes from "mime-types";
 import path from "path";
 import { checkSize } from "./Functions/checkSize.ts";
@@ -8,6 +9,7 @@ import { generateName } from "./Functions/generateName.ts";
 import { spaceManagement } from "./Functions/spaceManagement.ts";
 const app = express();
 app.use(fileUpload());
+app.use(cors());
 const port = 3030;
 const allowedDirectorySize = 40 * 1024 * 1024 * 1024;
 
